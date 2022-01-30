@@ -233,9 +233,10 @@ address {
 /* Hero area */
 
 .hero-area {
-  background-color: #202322;
+  background: url("../img/hero-img.jpg") center no-repeat #333;
+  background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-flow: row wrap;
 }
 
@@ -244,7 +245,9 @@ address {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  
 }
+
 
 /* Aside */
 
@@ -286,6 +289,8 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url("../img/features-img.jpg") center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -376,6 +381,7 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
 }
+
 
 .contact-section {
   background-color: #2a423a;
