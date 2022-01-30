@@ -189,6 +189,14 @@ address {
      font-size: 1.125em;
    }
 
+   img {
+     width: 100%;
+   }
+
+   figure {
+     margin: 0;
+   }
+
    footer {
     flex-direction: column;
     text-align: center;
@@ -232,11 +240,19 @@ address {
    
 /* Hero area */
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .hero-area {
   background: url("../img/hero-img.jpg") center no-repeat #333;
   background-size: cover;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-flow: row wrap;
 }
 
@@ -245,7 +261,6 @@ address {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  
 }
 
 
@@ -336,6 +351,14 @@ input[type=button] {
   margin: 20px 0;
 }
 
+.reviews figure {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 /* ------------------------ Mobile Styles - FAQ Page ----------------------- */
 
 /* FAQ */
@@ -382,6 +405,9 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.map figure {
+  width: 100$;
+}
 
 .contact-section {
   background-color: #2a423a;
@@ -506,12 +532,16 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header .nav {
     width: 20%;
   }
 
   header nav ul {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .header-divider {
@@ -557,6 +587,10 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
+  }
+
+  .reviews figure {
+    width: 45%;
   }
 
   .reviews article div {
@@ -640,7 +674,13 @@ input[type=button] {
     width: 60%;
   }
 
+  header figure {
+    width: 24%;
+  }
+
   /* Hero Area */
+
+
 
   /* Aside */
 
@@ -667,6 +707,10 @@ input[type=button] {
 
   .reviews div {
     width: 50%;
+  }
+
+  .reviews figure {
+    width: 42%;
   }
 
   /* Footer */
