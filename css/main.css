@@ -212,7 +212,7 @@ address {
    }
 
    footer .contact {
-      margin-bottom: 45px; 
+     margin-bottom: 45px; 
    }
 
    address ul {
@@ -236,9 +236,8 @@ address {
   }
 
   footer .social-icons p i {
-   font-size: 1.3125em;
+    font-size: 1.3125em;
  }
-
 
   footer .copyright {
     margin: 20px 0;
@@ -637,12 +636,16 @@ input[type=button] {
 
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
   }
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer .social {
+    width: 50%;
   }
 
   footer .copyright {
@@ -711,6 +714,8 @@ input[type=button] {
   header figure {
     width: 24%;
   }
+
+
 
   /* Hero Area */
 
